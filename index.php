@@ -77,8 +77,9 @@
                                                                      id="btnType">Copy To Clipboard</span>
         </div>
         <br>
+        Embed_ID:
         <div class="input-group">
-            Embed_ID: <input class="form-control" id="txtEmbed_ID" readonly/><span
+            <input class="form-control" id="txtEmbed_ID" readonly/><span
                     class="input-group-addon btn btn-primary" id="btnEmbed_ID">Copy To Clipboard</button></span>
         </div>
     </div>
