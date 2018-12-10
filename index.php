@@ -12,7 +12,6 @@
 
         $(document).ready(function () {
             $('#ok').on('click', function () {
-                $('#id').val('');
                 $.ajax({
                     url: 'get.php?id=' + $('#id').val(),
                     success: function (data) {
@@ -24,6 +23,7 @@
                         $('#txtFile').val(o.file);
                         $('#txtType').val(o.type);
                         $('#txtEmbed_ID').val(o.embed_id);
+                        $('#id').val('');
                     }
                 })
             });
