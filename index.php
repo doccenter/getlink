@@ -12,6 +12,7 @@
 
         $(document).ready(function () {
             $('#ok').on('click', function () {
+                $('#id').val('');
                 $.ajax({
                     url: 'get.php?id=' + $('#id').val(),
                     success: function (data) {
